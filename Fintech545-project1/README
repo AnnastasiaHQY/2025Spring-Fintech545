@@ -1,0 +1,40 @@
+# README - Fintech 545 Project 1
+
+## Overview
+This project is the first project of Fintech 545 and focuses on financial data analysis tasks, including statistical calculations, distribution fitting, covariance matrix analysis, time series modeling, and simulation techniques. The project is structured in Python and relies on standard data science libraries.
+
+## Prerequisites
+Before running the code, ensure you have the following dependencies installed:
+
+```bash
+pip install numpy pandas scipy matplotlib seaborn statsmodels sklearn
+```
+
+## Files
+- `project1.py`: Main Python script containing the implementation of all tasks.
+- `Fintech545-project1.pdf`: Project documentation detailing the methodology and results.
+- `problem1.csv`, `problem2.csv`, `problem3.csv`, `problem4.csv`, `problem6.csv`, `DailyReturn.csv`, `holdingsSPY.csv`, `DailyPrices.csv`: Datasets required for computations.
+
+## Running the Code
+To execute the main script, navigate to the directory containing `project1.py` and run:
+
+```bash
+python project1.py
+```
+
+### Expected Output
+The script will generate:
+- Statistical summaries (Mean, Variance, Skewness, Kurtosis)
+- Distribution fitting analysis (Normal vs. T-distribution)
+- Covariance matrix calculations and PSD adjustments
+- Time series model fitting (AR, MA, ARMA)
+- Exponentially weighted covariance matrix
+- Simulation using Cholesky and PCA methods
+- Various plots and analytical comparisons
+
+
+## Troubleshooting
+- If missing modules error occurs, ensure required libraries are installed.
+- If dataset files are missing, verify the correct file paths.
+- For runtime warnings, check the assumptions (e.g., PSD covariance matrix requirement).
+
